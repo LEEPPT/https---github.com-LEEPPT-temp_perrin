@@ -1,0 +1,24 @@
+/Users/beaas/Downloads/ion2FullApp/.vscode/launch.json
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "Launch Chrome against localhost",
+            "url": "http://localhost:8100",
+            "webRoot": "${workspaceRoot}/www",
+            "userDataDir": "${workspaceRoot}/.vscode/chrome",
+            "sourceMaps": true,
+            "trace": true
+        }
+    ]
+}
+
+/Users/beaas/Downloads/ion2FullApp/package.json
+"config": {
+    "ionic_sass": "./config/sass.config.js",
+    "ionic_bundler": "webpack",
+    "ionic_source_map": "source-map"
+    
+  }
