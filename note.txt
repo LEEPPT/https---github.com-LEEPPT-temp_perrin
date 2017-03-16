@@ -1,1 +1,0 @@
-http://michaelcrump.net/using-github-with-visualstudio-code/
