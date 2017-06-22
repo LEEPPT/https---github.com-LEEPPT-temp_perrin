@@ -1,1 +1,13 @@
-org.springframework.beans.factory.BeanCreationException: Error creating bean with name org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter#0': Cannot create inner bean org.springframework.http.converter.xml.MappingJackson2XmlHttpMessageConverter#0' of type [org.springframework.http.converter.xml.MappingJackson2XmlHttpMessageConverter] while setting bean property 'messageConverters'
+
+jboss-deployment-structure.xml in my WEB-INF folder
+
+<jboss-deployment-structure>
+    <deployment>
+        <exclusions>
+            <module name="com.fasterxml.jackson.core.jackson-core" />
+            <module name="com.fasterxml.jackson.core.jackson-databind" />
+            <module name="com.fasterxml.jackson.jaxrs.jackson-jaxrs-json-provider" />
+            <module name="org.jboss.resteasy.resteasy-jackson2-provider" />
+        </exclusions>
+    </deployment>
+</jboss-deployment-structure>
