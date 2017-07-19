@@ -1,13 +1,1 @@
-
-jboss-deployment-structure.xml in my WEB-INF folder
-
-<jboss-deployment-structure>
-    <deployment>
-        <exclusions>
-            <module name="com.fasterxml.jackson.core.jackson-core" />
-            <module name="com.fasterxml.jackson.core.jackson-databind" />
-            <module name="com.fasterxml.jackson.jaxrs.jackson-jaxrs-json-provider" />
-            <module name="org.jboss.resteasy.resteasy-jackson2-provider" />
-        </exclusions>
-    </deployment>
-</jboss-deployment-structure>
+Caused by: org.wso2.carbon.governance.api.exception.GovernanceException: Value for required attribute found empty.
