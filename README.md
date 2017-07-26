@@ -1,1 +1,5 @@
-Caused by: org.wso2.carbon.governance.api.exception.GovernanceException: Value for required attribute found empty.
+System.out.println("Before Format : " + file.lastModified());
+
+	SimpleDateFormat sdf = new SimpleDateFormat("MM/dd/yyyy HH:mm:ss");
+
+	System.out.println("After Format : " + sdf.format(file.lastModified()));
